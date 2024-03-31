@@ -1,0 +1,43 @@
+2024-03-31 17:12:48,319 - INFO - logger configured
+2024-03-31 17:12:48,319 - INFO - Running <__main__.TestApp object at 0x7f7284bbf370>...
+2024-03-31 17:12:48,319 - INFO - Trying to launch app : hello.py
+2024-03-31 17:12:48,319 - ERROR - An error occurred: 'TestApp' object has no attribute 'app'
+2024-03-31 17:12:48,319 - ERROR - hello.py test_app NOK
+2024-03-31 17:14:35,726 - INFO - logger configured
+2024-03-31 17:14:35,727 - INFO - Running <__main__.TestApp object at 0x7f09801c1370>...
+2024-03-31 17:14:35,728 - INFO - Trying to launch app : hello.py
+2024-03-31 17:14:35,729 - ERROR - An error occurred: 'TestApp' object has no attribute 'app'
+2024-03-31 17:14:35,730 - ERROR - hello.py test_app NOK
+2024-03-31 17:15:03,717 - INFO - logger configured
+2024-03-31 17:15:03,718 - INFO - Running <__main__.TestApp object at 0x7f04c4870370>...
+2024-03-31 17:15:03,718 - INFO - Trying to launch app : hello.py
+2024-03-31 17:15:03,719 - ERROR - An error occurred: 'TestApp' object has no attribute 'app'
+2024-03-31 17:15:03,719 - ERROR - hello.py test_app NOK
+2024-03-31 17:21:53,125 - INFO - logger configured
+2024-03-31 17:21:53,128 - INFO - Running <__main__.TestApp object at 0x7fa022846370>...
+2024-03-31 17:21:53,128 - INFO - Trying to launch app : hello.py
+2024-03-31 17:21:53,144 - ERROR - An error occurred: [Errno 2] No such file or directory: 'python3 hello.py'
+2024-03-31 17:21:53,145 - ERROR - hello.py test_app NOK
+2024-03-31 17:27:33,918 - INFO - logger configured
+2024-03-31 17:27:33,921 - INFO - Running <__main__.TestApp object at 0x7f65ceadf340>...
+2024-03-31 17:27:33,922 - INFO - Trying to launch app : hello.py
+2024-03-31 17:27:33,967 - ERROR - An error occurred: [Errno 2] No such file or directory: 'python3 hello.py'
+2024-03-31 17:27:33,967 - ERROR - hello.py test_app NOK
+2024-03-31 18:37:56,076 - INFO - logger configured
+2024-03-31 18:37:56,138 - INFO - command executed successfully!
+2024-03-31 18:37:56,139 - INFO - Standard Output of app under test:
+hello
+
+2024-03-31 18:37:56,139 - INFO - Error Output of app under test:
+
+2024-03-31 18:37:56,139 - ERROR - hello.py test_app NOK
+2024-03-31 19:16:47,479 - INFO - logger configured
+2024-03-31 19:16:47,479 - INFO - TestApp instance created
+2024-03-31 19:16:47,517 - INFO - command executed successfully!
+2024-03-31 19:16:47,517 - INFO - Standard Output of app under test:
+hello
+
+2024-03-31 19:16:47,517 - INFO - Error Output of app under test:
+
+2024-03-31 19:16:47,518 - INFO - TestApp hello.py OK
+2024-03-31 19:16:47,518 - INFO - test duration: {test.duration}
