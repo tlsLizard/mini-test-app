@@ -48,13 +48,8 @@ Here's a brief overview of the key files and their functions in this project.
 ### Resources
 - **Description:** Your script's resources, including assets, data files, etc.
 
-
-
-
-
-
 # Sample output of TestApp for hello.py
-![Alt text]([URL_to_image](https://github.com/tlsLizard/mini-test-app/blob/main/test_app_hello_log_file.png) "test_app_hello.log")
+![test_app_hello.log](https://github.com/tlsLizard/mini-test-app/blob/main/test_app_hello_log_file.png "test_app_hello.log")
 
 # licence notes
 i chose MIT for v1, mainly because of the strong disclaimer section
