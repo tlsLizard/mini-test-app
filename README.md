@@ -1,15 +1,11 @@
 +**mini-test-app**
 **Version**
 **1**
-
       o
      oeo
     oeçoe
    oeoçoeo
-  oeoççoeoe
-
-
-
+  
 # features
 
 you can create a mini test environment with a simple folder:
