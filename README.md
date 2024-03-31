@@ -6,6 +6,9 @@
     oeçoe
    oeoçoeo
   
+# requirements
+Python 3.8+
+
 # features
 
 you can create a mini test environment with a simple folder:
