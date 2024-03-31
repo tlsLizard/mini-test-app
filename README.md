@@ -11,15 +11,23 @@
 
 # overview
 
-File                  Function                                
--------------------------------------------------------------------
-TestApp.py            run this to test your scripts / apps    
-test_tools.py         tools to run your tests                 
-test_app.log                                                     
-      hello.py.py     a sample project                        
-      main.py         the script/app you want to test         
-      {ressources}    and its ressources
---------------------------------------------------------------------
+# File
+### Function                                
+
+# TestApp.py
+### run this to test your scripts / apps    
+
+# test_tools.py
+### tools to run your tests                 
+
+# test_app.log                                                     
+      
+# hello.py.py
+## a sample project                        
+### myApp.py
+# the script/app you want to test         
+### {ressources} 
+# your script's ressources
 
 # features
 
