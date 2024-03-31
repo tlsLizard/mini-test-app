@@ -28,31 +28,28 @@ run TestApp.py to test your script
 
 Here's a brief overview of the key files and their functions in this project.
 
-## Files and Their Functions
+## files and Their Functions
 
 ### `TestApp.py`
-- **Function:** Run this to test your scripts/apps.
+- **Run this to test your scripts/apps** 
 
 ### `test_tools.py`
-- **Function:** Tools to run your tests.
+- **Tools to run your tests** 
 
 ### `test_app.log`
-- **Description:** Log file for capturing test outputs.
+- **Log file for capturing test outputs** 
 
 ### `hello.py`
-- **Function:** A sample project.
+- ** A sample project**
 
-### `myApp.py`
-- **Function:** The script/app you want to test.
-
-### Resources
-- **Description:** Your script's resources, including assets, data files, etc.
+### `{Resources}`
+- **for the script under test's ressources, including assets, data files, etc.** 
 
 # Sample output of TestApp for hello.py
 ![test_app_hello.log](https://github.com/tlsLizard/mini-test-app/blob/main/test_app_hello_log_file.png "test_app_hello.log")
 
 # licence notes
-i chose MIT for v1, mainly because of the strong disclaimer section
+I chose MIT for v1, mainly because of the strong disclaimer section
 
 #github
 https://github.com/tlsLizard
