@@ -25,7 +25,7 @@ mini-test-app
 └── ...
 
 # features
-with mini-testapp
+with mini-test-app
 you can create a mini test environment with a simple folder:
 place the script you want to test and its ressources directly in the folder
 
