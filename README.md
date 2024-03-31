@@ -11,11 +11,22 @@
 
 # overview
 
+| File                    | Function                                |
+|-------------------------------------------------------------------|
+| TestApp.py              | run this to test your scripts / apps    |
+| test_tools.py           | tools to run your tests                 |
+| test_app.log            |                                         |
+|    hello.py.py          | a sample project                        |
+|    main.py              | the script/app you want to test         |
+|    {ressources}         |                                         |
+
+
+
 """
 mini-test-app                                                            
-- TestAppp.py                 run this to test your scripts / apps    
+- TestAppp.py                     
 - test_tools.py               tools to run your tests
-- hello.py                    a sample project
+- hello.py                    
 - main.py                     |        
 - requirements.txt            |---your python project
 - { Project Resources }     |
