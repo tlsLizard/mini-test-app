@@ -11,18 +11,16 @@
 
 # overview
 
-mini-test-app   
-│                                                            
-├── TestAppp.py                 run this to test your scripts / apps    
-|__ test_tools.py               tools to run your tests
-├── hello.py                    a sample project
-├── main.py                     |        
-├── requirements.txt            |---your python project
-│ └── { Project Resources }     |
-│
-└── logs                        your logs
-├── test_app_hello.log          
-└── ...
+"""
+mini-test-app                                                            
+- TestAppp.py                 run this to test your scripts / apps    
+- test_tools.py               tools to run your tests
+- hello.py                    a sample project
+- main.py                     |        
+- requirements.txt            |---your python project
+- { Project Resources }     |
+- test_app_hello.log          
+"""
 
 # features
 with mini-test-app
