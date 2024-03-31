@@ -28,11 +28,12 @@ place the script you want to test and its ressources directly in the folder
 
 run TestApp.py to test your script 
 
-features:
-TestApp runs your script using python module 'subprocess'
-TestApp captures the Standard output and Standard error  of the app under test
-You can set a timeout after which this process is ended (default = 10s)
-TestApp creates a log file : test_app_myApp.log'
+what it does
+
+- TestApp runs your script using python module 'subprocess'
+- TestApp captures the Standard output and Standard error  of the app under test
+- You can set a timeout after which this process is ended (default = 10s)
+- TestApp creates a log file : test_app_myApp.log'
 
 #WIP picture of sample output (test_app_hello.log)
 
