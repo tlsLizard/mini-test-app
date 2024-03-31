@@ -79,11 +79,12 @@ def format_raw_ms_tag(raw_tag):
 
 
 def round_to_x_decimals(number, x):
-    *** Args: float, int
-        Return: string
-        example: number = 0.017794132232666016
-                 x = 3
-                 output= str(0.018)***
+    """Args: float, int
+       Return: string
+       example: 
+       number = 0.017794132232666016
+       x = 3
+       output= str(0.018)"""
     rounded_number = round(float(number) * 10 ** x) / (10 ** x)
     return rounded_number
 

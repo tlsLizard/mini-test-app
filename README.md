@@ -11,11 +11,11 @@ Python 3.8+
 
 # features
 
-you can create a mini test environment with a simple folder:
+- you can create a mini test environment with a simple folder:
 
-place the script you want to test and its ressources directly in the folder
+- place the script you want to test and its ressources directly in the folder
 
-run TestApp.py to test your script 
+- run TestApp.py to test your script 
 
 # what TesatApp does
 

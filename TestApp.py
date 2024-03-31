@@ -55,7 +55,7 @@ class TestApp:
         import subprocess
         import sys
 
-        cmd = ['python3', 'hello.py']  # the external command to run
+        cmd = ['python3', 'appConsoleDeclaration.py']  # the external command to run
         # TODO test ['py', 'hello.py']
         # TODO test cmd = self.app_under_test_main_command
 
@@ -88,13 +88,13 @@ class TestApp:
 if __name__ == "__main__":
 
     print("Welcome to minitest-app!")
-    command = ['python3', 'hello.py']  # Define a valid command to run hello.py
+    command = ['python3', 'appConsoleDeclaration.py']  # Define a valid command to run hello.py
     #  todo: test other commands = ['py','main.py'], ...
 
     #  tells user what testapp is about to do and offers to abort
     command_tag = command[0] + " " + command[1]
     while True:
-        user_answer = input("testapp is about to run : >{command_tag}"
+        user_answer = input(f"testapp is about to run : >{command_tag}"
                             + '\n'
                             + 'do you want to continue? y/n  _'
                             )
@@ -106,17 +106,21 @@ if __name__ == "__main__":
             print("please enter a valid answer")
 
     # Configure test tools
-    logger = test_tools.setup_logger('test_app_hello.log', logging.INFO)
+    logger = test_tools.setup_logger('test_app_ConsoleDeclaration.log', logging.INFO)
     logger.info("logger configured")
 
-    test = TestApp(app_under_test='hello.py', app_under_test_main_command=('python3', 'hello.py'), local_logger=logger)
+    test = TestApp(
+                   app_under_test='appConsoleDeclaration',
+                   app_under_test_main_command=('python3', 'appConsoleDeclaration.py'),
+                   local_logger=logger
+                   )
 
     (duration, status) = test.run()
 
     if status:
-        logging.info("TestApp hello.py OK")
+        logging.info("TestApp appConsoleDeclaration.py OK")
     else:
-        logging.error("TestApp hello.py NOK")
+        logging.error("TestApp appConsoleDeclaration.p")
     logging.info("test duration: {test.duration}")
 
     print("check log file for more details")
