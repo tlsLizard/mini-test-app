@@ -4,3 +4,4 @@ venv/
 __pycache__/
 
 logs/
+test_app_consoleDeclaration.log

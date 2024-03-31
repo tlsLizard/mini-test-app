@@ -14,3 +14,9 @@ python3: can't open file 'appConsoleDeclaration': [Errno 2] No such file or dire
 2024-03-31 22:19:47,905 - INFO - Terminating the whole process group...
 2024-03-31 22:19:47,908 - INFO - TestApp appConsoleDeclaration.py OK
 2024-03-31 22:19:47,909 - INFO - test duration: {test.duration}
+2024-03-31 22:43:43,214 - INFO - logger configured
+2024-03-31 22:43:43,215 - INFO - TestApp instance created
+2024-03-31 22:43:53,234 - WARNING - Timeout for ['python3', 'appConsoleDeclaration.py'] (10s) expired
+2024-03-31 22:43:53,235 - INFO - Terminating the whole process group...
+2024-03-31 22:43:53,236 - INFO - TestApp appConsoleDeclaration.py OK
+2024-03-31 22:43:53,237 - INFO - test duration: {test.duration}
