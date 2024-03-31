@@ -20,20 +20,8 @@
 |    main.py              | the script/app you want to test         |
 |    {ressources}         |                                         |
 
-
-
-"""
-mini-test-app                                                            
-- TestAppp.py                     
-- test_tools.py               tools to run your tests
-- hello.py                    
-- main.py                     |        
-- requirements.txt            |---your python project
-- { Project Resources }     |
-- test_app_hello.log          
-"""
-
 # features
+
 with mini-test-app
 you can create a mini test environment with a simple folder:
 place the script you want to test and its ressources directly in the folder
