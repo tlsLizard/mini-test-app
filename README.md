@@ -1,10 +1,6 @@
 +**mini-test-app**
 **Version**
 **1**
-      o
-     oeo
-    oeçoe
-   oeoçoeo
   
 # requirements
 Python 3.8+
@@ -17,6 +13,8 @@ place the script you want to test and its ressources directly in the folder
 
 run TestApp.py to test your script 
 
+creates a log file : test_app_myApp.log
+
 # what TesatApp does
 
 - runs your script using python module 'subprocess'
@@ -26,7 +24,7 @@ run TestApp.py to test your script
 
 # details
 
-Here's a brief overview of the key files and their functions in this project.
+Here's a brief overview of the files and their functions in this project:
 
 ## files and Their Functions
 
@@ -49,6 +47,7 @@ Here's a brief overview of the key files and their functions in this project.
 ![test_app_hello.log](https://github.com/tlsLizard/mini-test-app/blob/main/test_app_hello_log_file.png "test_app_hello.log")
 
 # licence notes
+#WIP
 I chose MIT for v1, mainly because of the strong disclaimer section
 
 #github
