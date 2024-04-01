@@ -17,8 +17,8 @@ creates a log file : test_app_myApp.log
 
 # what TesatApp does
 
-- runs your script using python module 'subprocess'
-- captures the Standard output and Standard error  of the app under test
+- runs your script/python app using python module 'subprocess'
+- captures the Standard output and Standard error  of the app/script under test
 - You can set a timeout after which this process is ended (default = 10s)
 - TestApp creates a log file : test_app_myApp.log
 
