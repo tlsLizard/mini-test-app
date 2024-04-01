@@ -37,8 +37,8 @@ Here's a brief overview of the files and their functions in this project:
 ### `hello.py`
 - ** A sample project**
 
-### `{Resources}`
-- **for the script under test's ressources, including assets, data files, etc.** 
+### `ressources folder`
+- **the script under test's ressources, sample folder includes sample_text.txt** 
 
 # Sample output of TestApp for hello.py
 ![test_app_hello.log](https://github.com/tlsLizard/mini-test-app/blob/main/test_app_hello_log_file.png "test_app_hello.log")
