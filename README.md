@@ -22,11 +22,8 @@ creates a log file : test_app_myApp.log
 - You can set a timeout after which this process is ended (default = 10s)
 - TestApp creates a log file : test_app_myApp.log
 
-# details
-
-Here's a brief overview of the files and their functions in this project:
-
 ## files and Their Functions
+Here's a brief overview of the files and their functions in this project:
 
 ### `TestApp.py`
 - **Run this to test your scripts/apps** 
