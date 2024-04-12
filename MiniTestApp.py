@@ -10,7 +10,7 @@ import sys
 import logging
 
 try:
-    import mini_test_app_tools
+    from mini_test_app_tools import calculate_duration, setup_logger
 except ImportError as e:
     print(f"Import error: {e}")
     sys.exit(1)
@@ -55,7 +55,7 @@ class MiniTestApp:
     def __str__(self):
           return str(self.tag)
       
-    @mini-test-app_tools.calculate_duration
+    @calculate_duration
     def run(self):
         import os
         import signal
@@ -117,22 +117,22 @@ if __name__ == "__main__":
             print("please enter a valid answer")
 
     # Configure test tools
-    logger = test_tools.setup_logger('report_test_app_hello.log', logging.INFO) #  adapt here
+    logger = setup_logger('report_test_app_hello.log', logging.INFO) #  adapt here
     logger.info("logger configured")
 
     test = MiniTestApp(
-                   tag='mini-test-app-v1 : testing hello.py',                   #  adapt here
+                   tag='mini-test-app-v1 : testing hello.py',                       #  adapt here
                    app_under_test='hello.py',
-                   app_under_test_main_command=('python3', 'hello.py'),         #  adapt here
+                   app_under_test_main_command=('python3', 'hello.py'),             #  adapt here
                    local_logger=logger
                    )
 
     (duration, status) = test.run()
 
     if status:
-        logging.info("TestApp hello.py OK")                                     #  adapt here
+        logging.info("MiniTestApp hello.py OK")                                     #  adapt here
     else:
-        logging.error("TestApp hello.py NOK")                                   #  adapt here
+        logging.error("MiniTestApp hello.py NOK")                                   #  adapt here
     logging.info(f"test duration: {test.duration}")
 
     print("check log file for more details")
