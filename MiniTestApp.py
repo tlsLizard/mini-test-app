@@ -9,10 +9,12 @@ mini-test-app-v1
 import sys
 import logging
 try:
-    import mini-test-app_tools
+      import mini-test-app_tools
 except ImportError as e:
-    print(f"Import error: {e}")
-    sys.exit(1)
+      print(f"Import error: {e}")
+      sys.exit(1)
+finally:
+      pass
 
 
 class MiniTestApp:
