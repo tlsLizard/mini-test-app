@@ -12,8 +12,6 @@ tools:
           |      
           |___introducing TestTemplate class, unused for now
 """
-
-
 import time
 
 def calculate_duration(func):
@@ -29,9 +27,10 @@ def calculate_duration(func):
         return result, duration
     return wrapper    
 
+
 import logging
 
-def setup_logger(log_file='test_app_hello.log', level=logging.DEBUG):
+def setup_logger(log_file='report_test_app_hello.log', level=logging.DEBUG):
     """Args: log_file (default: test_app_hello.log)
              level should be in [logging.INFO, 
                                 logging.WARNING,
