@@ -32,7 +32,7 @@ class TestApp:
     def __init__(self,
                  tag="test_app",
                  app_under_test="hello.py",
-                 app_under_test_main_command=('python3', 'hello.py'),  # todo: change this?
+                 app_under_test_main_command=('python3', 'hello.py'),  # adjust here 
                  timeout_s=10,
                  local_logger=None
                  ) -> None:
@@ -48,14 +48,14 @@ class TestApp:
         if logger:
             logger.info("TestApp instance created")
 
-    @test_tools.calculate_duration
+    @mini-test-app_tools.calculate_duration
     def run(self):
         import os
         import signal
         import subprocess
         import sys
 
-        cmd = ['python3', 'appConsoleDeclaration.py']  # the external command to run
+        cmd = ['python3', 'hello.py']  # the external command to run
         # TODO test ['py', 'hello.py']
         # TODO test cmd = self.app_under_test_main_command
 
@@ -88,8 +88,8 @@ class TestApp:
 if __name__ == "__main__":
 
     print("Welcome to minitest-app!")
-    command = ['python3', 'appConsoleDeclaration.py']  # Define a valid command to run hello.py
-    #  todo: test other commands = ['py','main.py'], ...
+    command = ['python3', 'hello.py']  # Define a valid command to run hello.py
+    #  todo: test other commands = ['py','hello.py'], ...
 
     #  tells user what testapp is about to do and offers to abort
     command_tag = command[0] + " " + command[1]
@@ -99,29 +99,29 @@ if __name__ == "__main__":
                             + 'do you want to continue? y/n  _'
                             )
         if user_answer.lower() == 'n':
-            sys.exit()
+            sys.exit(0)
         elif user_answer.lower() == 'y':
             break
         else:
             print("please enter a valid answer")
 
     # Configure test tools
-    logger = test_tools.setup_logger('test_app_ConsoleDeclaration.log', logging.INFO)
+    logger = test_tools.setup_logger('report_test_app_hello.log', logging.INFO)
     logger.info("logger configured")
 
     test = TestApp(
-                   app_under_test='appConsoleDeclaration',
-                   app_under_test_main_command=('python3', 'appConsoleDeclaration.py'),
+                   app_under_test='hello.py',
+                   app_under_test_main_command=('python3', 'hello.py'),
                    local_logger=logger
                    )
 
     (duration, status) = test.run()
 
     if status:
-        logging.info("TestApp appConsoleDeclaration.py OK")
+        logging.info("TestApp hello.py OK")
     else:
-        logging.error("TestApp appConsoleDeclaration.p")
-    logging.info("test duration: {test.duration}")
+        logging.error("TestApp hello.py NOK")
+    logging.info(f"test duration: {test.duration}")
 
     print("check log file for more details")
     print("bye")
