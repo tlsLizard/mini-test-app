@@ -1,6 +1,6 @@
 """
-mini-test-app
-     |_____________test_tools
+mini-test-app-v1
+     |_____________mini-test-app_tools
 
 tools:
    - a decorator
