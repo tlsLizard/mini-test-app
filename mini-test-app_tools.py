@@ -10,7 +10,8 @@ tools:
           |___ setup_logger -> returns a logger object
           |___ 3 helper functions to format string, tags, etc      
           |      
-   -      |___introducing TestTemplate, unused for now"""
+          |___introducing TestTemplate class, unused for now
+"""
 
 
 import time
