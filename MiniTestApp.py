@@ -3,16 +3,16 @@
 **Version**
 **1**
 
-mini-test-app
-      |____________TestApp.py
+mini-test-app-v1
+      |____________MiniTestApp.py
 """
 import sys
 import logging
 try:
-    import test_tools
+    import mini-test-app_tools
 except ImportError as e:
     print(f"Import error: {e}")
-    sys.exit()
+    sys.exit(1)
 
 
 class MiniTestApp:
