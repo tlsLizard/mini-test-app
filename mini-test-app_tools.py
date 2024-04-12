@@ -89,9 +89,10 @@ def round_to_x_decimals(number, x):
     return rounded_number
 
 # unused for now, for later
+"""
 class TestTemplate:
     def __init__(self, test_tag='myTest', status=False):
-        self.tag = tag
+        self.tag = test_tag
         self.status = status
 
     def run(self):
@@ -102,6 +103,7 @@ class TestTemplate:
         if True: # if your test conditions for pass are met 
             self.status = True
         return self.status
+"""
 
 
 if __name__ == "__main__":
