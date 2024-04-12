@@ -88,15 +88,15 @@ def round_to_x_decimals(number, x):
     rounded_number = round(float(number) * 10 ** x) / (10 ** x)
     return rounded_number
 
-# unused for now, for later
-"""
+
+"""   unused for now, for later
 class TestTemplate:
     def __init__(self, test_tag='myTest', status=False):
         self.tag = test_tag
         self.status = status
 
     def run(self):
-        """:return: test status"""
+        :return: test status
         #
         #   test instructions
         #
