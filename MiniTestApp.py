@@ -110,7 +110,7 @@ if __name__ == "__main__":
     logger.info("logger configured")
 
     test = MiniTestApp(
-                   tag='mini-test-app-v1 : testing hello.py'
+                   tag='mini-test-app-v1 : testing hello.py',
                    app_under_test='hello.py',
                    app_under_test_main_command=('python3', 'hello.py'),
                    local_logger=logger
