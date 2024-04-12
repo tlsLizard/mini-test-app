@@ -15,7 +15,7 @@ except ImportError as e:
     sys.exit()
 
 
-class TestApp:
+class MiniTestApp:
     """
     Args
     app_under_test (default = 'hello.py')
@@ -109,7 +109,8 @@ if __name__ == "__main__":
     logger = test_tools.setup_logger('report_test_app_hello.log', logging.INFO)
     logger.info("logger configured")
 
-    test = TestApp(
+    test = MiniTestApp(
+                   tag='mini-test-app-v1 : testing hello.py'
                    app_under_test='hello.py',
                    app_under_test_main_command=('python3', 'hello.py'),
                    local_logger=logger
