@@ -11,7 +11,7 @@ Python 3.8+
 
 - place the script you want to test and its ressources directly in the folder
 
-- run TestApp.py to test your script 
+- run MiniTestApp.py to test your script 
 
 creates a log file : test_app_myApp.log
 
