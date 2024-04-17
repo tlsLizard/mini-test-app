@@ -2,7 +2,9 @@
 #  ```pip install pytest```
 #  ```pytest test.py```
 
-
+# current testing environments in .yml file
+# ubuntu_latest, python 3.8
+# windows_2019, python 3.12
 
 import pytest
 import platform
@@ -11,24 +13,25 @@ from packaging import version
 
 # Constants for minimum required versions
 minimum_python_version = '3.8'  # Minimum Python version
-minimum_glibc_version = '2.28'  # Minimum glibc version
+# minimum_glibc_version = '2.28'  # to test under older ubuntus: Minimum glibc version
 
 def check_python_version(min_version):
     # Use version parsing for correct comparison
     current_version = version.parse(platform.python_version())
     min_version = version.parse(min_version)
     return current_version >= min_version
-
+    
+"""OLD: to test under older ubuntus
 def check_glibc_version(min_version):
     # Extract glibc version and use version parsing for comparison
     glibc_version_str = platform.libc_ver()[1]
     glibc_version = version.parse(re.findall(r'\d+\.\d+', glibc_version_str)[0])
     min_version = version.parse(min_version)
-    return glibc_version >= min_version
+    return glibc_version >= min_version"""
 
 def test_environment():
     # Assert both Python and glibc versions
     assert check_python_version(minimum_python_version), f"Python version must be >= {minimum_python_version}"
-    assert check_glibc_version(minimum_glibc_version), f"glibc version must be >= {minimum_glibc_version}"
+    # assert check_glibc_version(minimum_glibc_version), f"glibc version must be >= {minimum_glibc_version}" # to test under older ubuntus
 
 # The test_environment function will now perform all checks and the assertion failures will provide feedback directly.
